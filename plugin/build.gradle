@@ -13,7 +13,7 @@ gradlePlugin {
 }
 
 dependencies {
-    implementation("com.android.tools.build:gradle:8.0.0-alpha06")
+    implementation("com.android.tools.build:gradle:8.0.0-alpha09")
     implementation("com.android.tools.build:builder-test-api:8.0.0-alpha09")
     implementation("com.android.tools:common:31.0.0-alpha09")
     implementation("com.android.tools.ddms:ddmlib:31.0.0-alpha09")
