@@ -22,6 +22,7 @@ internal class MyDeviceTestRunner : ManagedDeviceTestRunner {
         additionalInstallOptions: List<String>,
         helperApks: Set<File>,
         logger: Logger,
+        dependencyApks: Set<File>,
     ): Boolean {
         managedDevice as MyDeviceImpl
         val runner = AdbRunner(managedDevice.host.get(), managedDevice.port.get())

@@ -23,6 +23,7 @@ internal class DeviceFarmTestRunner : ManagedDeviceTestRunner {
         additionalInstallOptions: List<String>,
         helperApks: Set<File>,
         logger: Logger,
+        dependencyApks: Set<File>,
     ): Boolean {
         managedDevice as DeviceFarmImpl
 

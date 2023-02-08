@@ -24,6 +24,7 @@ internal class MultipleDevicesTestRunner : ManagedDeviceTestRunner {
         additionalInstallOptions: List<String>,
         helperApks: Set<File>,
         logger: Logger,
+        dependencyApks: Set<File>,
     ): Boolean {
         managedDevice as MultipleDevicesImpl
 

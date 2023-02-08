@@ -13,10 +13,10 @@ gradlePlugin {
 }
 
 dependencies {
-    implementation("com.android.tools.build:gradle:8.0.0-alpha09")
-    implementation("com.android.tools.build:builder-test-api:8.0.0-alpha09")
-    implementation("com.android.tools:common:31.0.0-alpha09")
-    implementation("com.android.tools.ddms:ddmlib:31.0.0-alpha09")
+    implementation("com.android.tools.build:gradle:8.1.0-alpha03")
+    implementation("com.android.tools.build:builder-test-api:8.1.0-alpha03")
+    implementation("com.android.tools:common:31.1.0-alpha03")
+    implementation("com.android.tools.ddms:ddmlib:31.1.0-alpha03")
     implementation("com.google.testing.platform:core-proto:0.0.8-alpha08")
     implementation("com.google.protobuf:protobuf-java:3.19.3")
     implementation("dev.mobile:dadb:1.2.2")
